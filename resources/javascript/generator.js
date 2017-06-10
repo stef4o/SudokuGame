@@ -3,9 +3,9 @@ let Generator = (function() {
     let generateMatrix = function() {
         //let cellsToBeFilled = Math.floor(Math.random() * 10) + 55;
         let matrix = Array(9).fill(null).map(() => Array(9).fill(0));
-        for (let i = 0; i < 27; ++i) {
-            let numberToBeInserted = Math.floor(Math.random() * 9) + 1;
+        for (let i = 0; i < 35; ++i) {
             while (true) {
+                let numberToBeInserted = Math.floor(Math.random() * 9) + 1;
                 let row = Math.floor(Math.random() * 9);
                 let column = Math.floor(Math.random() * 9);
 

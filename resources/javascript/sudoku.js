@@ -24,7 +24,7 @@ let initializeGrid = function() {
 let fillInTheGrid = function(matrix) {
     for (let i = 0; i < 9; ++i) {
         for (let j = 0; j < 9; ++j) {
-            if (matrix[i][j]) {
+            if (matrix[i][j] != 0) {
                 $(`#cell-${i}-${j} > input`).val(matrix[i][j]);
                 $(`#cell-${i}-${j} > input`).prop("disabled", true);
                 $(`#cell-${i}-${j}`).addClass("disabled_cell");

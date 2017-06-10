@@ -183,7 +183,7 @@ main>div>div {
 }
 
 .disabled_cell {
-    color: darkslategrey;
+    color: lightslategrey;
 }
 
 .cell-box>input {
